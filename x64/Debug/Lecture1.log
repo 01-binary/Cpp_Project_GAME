@@ -1,0 +1,6 @@
+﻿  main.cpp
+d:\cpproject\mygame\main.cpp(207): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+d:\cpproject\mygame\main.cpp(687): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+d:\cpproject\mygame\main.cpp(766): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\cpproject\mygame\main.cpp(55): warning C4715: 'jm::Random::random': not all control paths return a value
+  Lecture1.vcxproj -> D:\Cpproject\Mygame\x64\Debug\Lecture1.exe
