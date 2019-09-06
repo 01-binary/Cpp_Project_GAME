@@ -10,13 +10,13 @@
 Void draw함수를 오버라이딩하여, 주인공의 색을 적과 구분할 수 있고, 주인공만 Energy
 바를 발아래에 출력할 수 있다.<br> 마지막으로 엎드리기를 구현하여, 화살표 아래방향키가 입력될 경우 OTL모양으로 엎드리는 Motion를 취할 수 있게 하였다.
 - 추가사항 엎드린 채로 좌우로 방향 전환가능, 강한 적 추가<br>
-<h3>DrawFucntion.cpp -> void drawMymap, void drawLine
+<h3>DrawFucntion.cpp -> void drawMymap, void drawLine</h3>
 
 drawMymap함수는 위의 그림처럼 맵 1층, 2층, 3층을 표현하기 위해 정의한 함수로,
 setLineWidth함수와 drawLine함수를 이용하였다.<br>
 drawLine함수는 기존에 있는 drawLine함수에서 주인공의 체력 게이지를 표현하기위해,
 오버로딩한 함수이다.<br>
-<h3>Main.cpp -> class Random, class Mygame<br>
+<h3>Main.cpp -> class Random, class Mygame</h3><br>
 
 Class Random은 적이 어느 위치에 나타날 지, 적 출현 좌표를 Random으로 정해주는
 vec2 random()함수, 
