@@ -4,7 +4,7 @@
 특정확률에 따라 주인공에게 총을 쏜다.<br> 총을 머리에 맞으면, 주인공의 Energy는 10씩 감소하게 된다. 기존버전에서 빨간색 적을 추가했는데, 이 적은 Energy를 100가지고 있으며, 검은색 총알을 발사하며, 주인공이 맞으면 Energy가 20이 감소하게 된다.<br>
 주인공의 Energy가 0이 되면 게임이 종료된다. 마찬가지로 주인공이 쏜 총을 적이 맞으면, 검은 색 적은 바로 죽으며, 빨간 적은 체력이 0이 되면 죽는다.<br>
 <h1>구현 함수 중 중요한 함수 설명<br>
-<h3>WalkingPerson.h -> class Main
+<h3>WalkingPerson.h -> class Main</h3>
 
 게임의 주인공을 만들기 위한 class로 WalkingPerson.h를 상속받았다.
 Void draw함수를 오버라이딩하여, 주인공의 색을 적과 구분할 수 있고, 주인공만 Energy
